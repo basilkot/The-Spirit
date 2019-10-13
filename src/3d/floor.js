@@ -1,6 +1,4 @@
-var settings = require('../core/settings');
 var THREE = require('three');
-var MeshMotionMaterial = require('./postprocessing/motionBlur/MeshMotionMaterial');
 
 var undef;
 

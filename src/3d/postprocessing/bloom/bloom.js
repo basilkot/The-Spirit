@@ -13,8 +13,8 @@ var _super = Effect.prototype;
 exports.init = init;
 exports.render = render;
 
-exports.blurRadius = 1.3;
-exports.amount = 0.3;
+exports.blurRadius = 1;
+exports.amount = 0.1;
 
 var _blurMaterial;
 
