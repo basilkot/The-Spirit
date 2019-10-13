@@ -72,7 +72,7 @@ function init() {
 
     _camera = new THREE.PerspectiveCamera( 45, 1, 10, 3000);
     window.__camera = _camera;
-    _camera.position.set(140, 70, 140); //.normalize().multiplyScalar(1000);
+    _camera.position.set(300, 70, 300); //.normalize().multiplyScalar(1000);
     _camera.rotation.set(-0.4, 0.75, 0.3);
     settings.camera = _camera;
     settings.cameraPosition = _camera.position;
@@ -95,9 +95,9 @@ function init() {
     // _control.noPan = true;
     // _control.update();
 
-    if(settings.isMobile) {
-        _control.enabled = false;
-    }
+    // if(settings.isMobile) {
+    //     _control.enabled = false;
+    // }
 
     window.addEventListener('resize', _onResize);
     window.addEventListener('mousemove', _onMove);
